@@ -42,5 +42,6 @@ csm.customer.bycif: ${csm.url}/csm/v01/bycif
 spring:
   profiles: docker
 csm.url: http://csm:81/csm-service
+spring.datasource.url : jdbc:mysql://10.0.75.1:3306/bank_transaction?zerodatetimebehavior=Converttonull
 ---
 

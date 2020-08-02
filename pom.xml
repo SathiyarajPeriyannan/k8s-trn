@@ -12,7 +12,7 @@
 	<artifactId>trn</artifactId>
 	<version>0.1</version>
 	<packaging>jar</packaging>
-	<name>bank_csm</name>
+	<name>bank_trn</name>
 	<description>Bank Applicaiton - Transaction Management</description>
 
 	<properties>
@@ -151,7 +151,7 @@
 						var buildNumber = now.getYear() + "_" + now.getMonthValue() + "_" + now.getDayOfMonth() + "_" + now.getHour() + "_" + now.getMinute() + "_" + now.getSecond() + "-1";
 						var versionLine = "public static final String VERSION = \"" + version + "\";";
 						var buildLine = "public static final String BUILD = \"" + buildNumber + "\";";
-						var path = java.nio.file.Paths.get($basedir + "/src/main/java/com/bank/csm/constants", 'BuildConstants.java');
+						var path = java.nio.file.Paths.get($basedir + "/src/main/java/com/bank/trn/constants", 'BuildConstants.java');
 						var Files = Java.type('java.nio.file.Files');
 						var String = Java.type("java.lang.String");
 						var StandardOpenOption = Java.type("java.nio.file.StandardOpenOption");
