@@ -1,7 +1,7 @@
-# Core Banking Transaction (TRN) Microservice - A Spring Boot Project
+# Sample Spring Boot Project for Kubernetes Replicated StatefulSet Solution - Core Banking Transaction (TRN) Microservice
 
 ## Description
-This project has been created to create a microservice which will expose the endpoints for basic core banking functionalities for example, deposit by cash, withdrawal by cash, fund transfer, dual bank ledger entry on transaction, enquiry and many more.
+This spring based java project has been written to create a microservice which will expose the endpoints for basic core banking functionalities for example, deposit by cash, withdrawal by cash, fund transfer, dual bank ledger entry on transaction, enquiry and many more.
 
 To run this microservice, the static data microservice must be running beasue it contains only trasaction part so the static data like bank and branch, customer and account must be provided by the said static microservie. 
 
@@ -9,7 +9,7 @@ The static data microservice named Customer Service Management (CSM) microservic
 
 
 ## Use Case
-This microservice has been designed to be part of and bank applicaiton demo which demostrate the core banking functionality with microservice based example. This microservice only contains core banking transactions with help of CSM microservice which contains the static data for processing of bank transactions.
+This microservice is part of Kubernetes Replicated StatefulSet Solution and it depicts typical core banking scenario where a microservice is created for monitery transactions. This microservice only contains core banking transactions with help of CSM microservice which contains the static data for processing of bank transactions.
 
 
 ## Technology Stack
