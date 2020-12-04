@@ -7,6 +7,8 @@ To run this microservice, the static data microservice must be running beasue it
 
 The static data microservice named Customer Service Management (CSM) microservice. Link: https://github.com/siddhivinayak-sk/csm
 
+To read full article visit URL: https://medium.com/@siddhivinayak.sk/kubernetes-and-replicated-statefulset-with-real-world-application-9bf21fca9eb
+
 
 ## Use Case
 This microservice is part of Kubernetes Replicated StatefulSet Solution and it depicts typical core banking scenario where a microservice is created for monitery transactions. This microservice only contains core banking transactions with help of CSM microservice which contains the static data for processing of bank transactions.
