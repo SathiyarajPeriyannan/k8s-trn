@@ -13,6 +13,7 @@ To read full article visit URL: https://medium.com/@siddhivinayak.sk/kubernetes-
 ## Use Case
 This microservice is part of Kubernetes Replicated StatefulSet Solution and it depicts typical core banking scenario where a microservice is created for monitery transactions. This microservice only contains core banking transactions with help of CSM microservice which contains the static data for processing of bank transactions.
 
+Link to Kubernetes Replicated StatefulSet Solution: https://github.com/siddhivinayak-sk/kb-statefulset-sample-artifacts
 
 ## Technology Stack
 - Java 8 or later
