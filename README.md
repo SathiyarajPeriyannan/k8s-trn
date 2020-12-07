@@ -5,7 +5,7 @@ This spring based java project has been written to create a microservice which w
 
 To run this microservice, the static data microservice must be running beasue it contains only trasaction part so the static data like bank and branch, customer and account must be provided by the said static microservie. 
 
-The static data microservice named Customer Service Management (CSM) microservice. Link: https://github.com/siddhivinayak-sk/csm
+The static data microservice named Customer Service Management (CSM) microservice. Link: https://github.com/siddhivinayak-sk/k8s-csm
 
 To read full article visit URL: https://medium.com/@siddhivinayak.sk/kubernetes-and-replicated-statefulset-with-real-world-application-9bf21fca9eb
 
