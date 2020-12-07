@@ -1,4 +1,4 @@
-# Sample Spring Boot Project for Kubernetes Replicated StatefulSet Solution - Core Banking Transaction (TRN) Microservice
+# Sample Spring Boot Project for Kubernetes Replicated StatefulSet Solution - Core Banking Transaction (K8S-TRN) Microservice
 
 ## Description
 This spring based java project has been written to create a microservice which will expose the endpoints for basic core banking functionalities for example, deposit by cash, withdrawal by cash, fund transfer, dual bank ledger entry on transaction, enquiry and many more.
