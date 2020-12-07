@@ -5,7 +5,7 @@ This spring based java project has been written to create a microservice which w
 
 To run this microservice, the static data microservice must be running beasue it contains only trasaction part so the static data like bank and branch, customer and account must be provided by the said static microservie. 
 
-The static data microservice named Customer Service Management (CSM) microservice. Link: https://github.com/siddhivinayak-sk/k8s-csm
+The static data microservice named Customer Service Management (CSM) microservice. Link: https://github.com/ERS-HCL/k8s-csm
 
 To read full article visit URL: https://medium.com/@siddhivinayak.sk/kubernetes-and-replicated-statefulset-with-real-world-application-9bf21fca9eb
 
@@ -13,7 +13,7 @@ To read full article visit URL: https://medium.com/@siddhivinayak.sk/kubernetes-
 ## Use Case
 This microservice is part of Kubernetes Replicated StatefulSet Solution and it depicts typical core banking scenario where a microservice is created for monitery transactions. This microservice only contains core banking transactions with help of CSM microservice which contains the static data for processing of bank transactions.
 
-Link to Kubernetes Replicated StatefulSet Solution: https://github.com/siddhivinayak-sk/kb-statefulset-sample-artifacts
+Link to Kubernetes Replicated StatefulSet Solution: https://github.com/ERS-HCL/kb-statefulset-sample-artifacts
 
 ## Technology Stack
 - Java 8 or later
